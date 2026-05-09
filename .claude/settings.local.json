@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"C:/Users/continue/.gstack/\" 2>/dev/null; echo \"===\"; ls -la \"D:/mycode/newidea/.gstack/\" 2>/dev/null)",
+      "Read(//c/Users/continue/.gstack/**)",
+      "Bash(echo '')",
+      "Bash(echo '# Claude Code: 默认跳过权限确认')",
+      "Bash(echo 'alias claude=\"claude --dangerously-skip-permissions\"')",
+      "Bash(openspec new *)",
+      "Bash(openspec status *)",
+      "Bash(openspec instructions *)",
+      "Bash(python -m pytest tests/test_database.py -v)",
+      "Bash(python -m pytest tests/test_vectorstore.py -v)"
+    ]
+  },
+  "enabledPlugins": {
+    "superpowers@superpowers-marketplace": true,
+    "frontend-design@claude-plugins-official": true
+  }
+}
